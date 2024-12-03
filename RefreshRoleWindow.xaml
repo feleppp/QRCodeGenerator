@@ -1,0 +1,29 @@
+﻿<Window x:Class="QRCodeGenerator.RefreshRoleWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QRCodeGenerator"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+    mc:Ignorable="d"
+    Title="RefreshWindow" Height="200" Width="200" WindowStartupLocation="CenterScreen" WindowStyle="None" ResizeMode="NoResize">
+    <Grid>
+
+        <Grid>
+            <Grid VerticalAlignment="Bottom" Height="5" Background="#161254"/>
+            <Grid HorizontalAlignment="Left" Width="5" Background="#161254"/>
+            <Grid HorizontalAlignment="Right" Width="5" Background="#161254"/>
+            <Grid VerticalAlignment="Top" Height="26" Background="#161254" x:Name="DragGrid" MouseDown="DragGrid_MouseDown"></Grid>
+        </Grid>
+
+        <Button VerticalAlignment="Top" HorizontalAlignment="Right" ToolTip="Close" x:Name="BtnClose" Style="{StaticResource MaterialDesignFloatingActionMiniButton}" BorderBrush="White" Background="{x:Null}" Height="25" Width="25" Click="BtnClose_Click">
+            <materialDesign:PackIcon Kind="Close" Foreground="White"/>
+        </Button>
+
+        <StackPanel Margin="10, 20, 10, 0" VerticalAlignment="Center">
+            <TextBlock Text="Назначить роль:" Margin="0, 5"/>
+            <ComboBox x:Name="RoleComboBox" DisplayMemberPath="name_role" Margin="0, 0, 0, 15" Height="auto"/>
+            <Button Content="Назначить" Click="UpdateButton_Click" Foreground="White" Background="#161254" BorderBrush="#161254"/>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,232 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\QRCodeGenerator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EFBAA99E-9822-4E71-B88B-FF8E9A286ECB}|QRCodeGenerator.csproj|e:\\qrcodegenerator\\userslist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EFBAA99E-9822-4E71-B88B-FF8E9A286ECB}|QRCodeGenerator.csproj|solutionrelative:userslist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFBAA99E-9822-4E71-B88B-FF8E9A286ECB}|QRCodeGenerator.csproj|E:\\QRCodeGenerator\\generationhistory.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFBAA99E-9822-4E71-B88B-FF8E9A286ECB}|QRCodeGenerator.csproj|solutionrelative:generationhistory.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFBAA99E-9822-4E71-B88B-FF8E9A286ECB}|QRCodeGenerator.csproj|E:\\QRCodeGenerator\\generationhistory.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EFBAA99E-9822-4E71-B88B-FF8E9A286ECB}|QRCodeGenerator.csproj|solutionrelative:generationhistory.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFBAA99E-9822-4E71-B88B-FF8E9A286ECB}|QRCodeGenerator.csproj|e:\\qrcodegenerator\\authorizationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFBAA99E-9822-4E71-B88B-FF8E9A286ECB}|QRCodeGenerator.csproj|solutionrelative:authorizationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFBAA99E-9822-4E71-B88B-FF8E9A286ECB}|QRCodeGenerator.csproj|E:\\QRCodeGenerator\\refreshrolewindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{EFBAA99E-9822-4E71-B88B-FF8E9A286ECB}|QRCodeGenerator.csproj|solutionrelative:refreshrolewindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFBAA99E-9822-4E71-B88B-FF8E9A286ECB}|QRCodeGenerator.csproj|E:\\QRCodeGenerator\\refreshwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{EFBAA99E-9822-4E71-B88B-FF8E9A286ECB}|QRCodeGenerator.csproj|solutionrelative:refreshwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFBAA99E-9822-4E71-B88B-FF8E9A286ECB}|QRCodeGenerator.csproj|E:\\QRCodeGenerator\\userslist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFBAA99E-9822-4E71-B88B-FF8E9A286ECB}|QRCodeGenerator.csproj|solutionrelative:userslist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFBAA99E-9822-4E71-B88B-FF8E9A286ECB}|QRCodeGenerator.csproj|E:\\QRCodeGenerator\\scanqr.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFBAA99E-9822-4E71-B88B-FF8E9A286ECB}|QRCodeGenerator.csproj|solutionrelative:scanqr.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFBAA99E-9822-4E71-B88B-FF8E9A286ECB}|QRCodeGenerator.csproj|E:\\QRCodeGenerator\\createqr.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFBAA99E-9822-4E71-B88B-FF8E9A286ECB}|QRCodeGenerator.csproj|solutionrelative:createqr.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFBAA99E-9822-4E71-B88B-FF8E9A286ECB}|QRCodeGenerator.csproj|E:\\QRCodeGenerator\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFBAA99E-9822-4E71-B88B-FF8E9A286ECB}|QRCodeGenerator.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFBAA99E-9822-4E71-B88B-FF8E9A286ECB}|QRCodeGenerator.csproj|E:\\QRCodeGenerator\\refreshwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EFBAA99E-9822-4E71-B88B-FF8E9A286ECB}|QRCodeGenerator.csproj|solutionrelative:refreshwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFBAA99E-9822-4E71-B88B-FF8E9A286ECB}|QRCodeGenerator.csproj|E:\\QRCodeGenerator\\authorizationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EFBAA99E-9822-4E71-B88B-FF8E9A286ECB}|QRCodeGenerator.csproj|solutionrelative:authorizationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFBAA99E-9822-4E71-B88B-FF8E9A286ECB}|QRCodeGenerator.csproj|E:\\QRCodeGenerator\\refreshrolewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EFBAA99E-9822-4E71-B88B-FF8E9A286ECB}|QRCodeGenerator.csproj|solutionrelative:refreshrolewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsersList.xaml",
+              "DocumentMoniker": "E:\\QRCodeGenerator\\UsersList.xaml",
+              "RelativeDocumentMoniker": "UsersList.xaml",
+              "ToolTip": "E:\\QRCodeGenerator\\UsersList.xaml",
+              "RelativeToolTip": "UsersList.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-30T09:35:40.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UsersList.xaml.cs",
+              "DocumentMoniker": "E:\\QRCodeGenerator\\UsersList.xaml.cs",
+              "RelativeDocumentMoniker": "UsersList.xaml.cs",
+              "ToolTip": "E:\\QRCodeGenerator\\UsersList.xaml.cs",
+              "RelativeToolTip": "UsersList.xaml.cs",
+              "ViewState": "AQIAAHwAAAAAAAAAAADwv5MAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T09:28:34.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthorizationWindow.xaml.cs",
+              "DocumentMoniker": "E:\\QRCodeGenerator\\AuthorizationWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AuthorizationWindow.xaml.cs",
+              "ToolTip": "E:\\QRCodeGenerator\\AuthorizationWindow.xaml.cs",
+              "RelativeToolTip": "AuthorizationWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T09:28:34.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ScanQR.xaml.cs",
+              "DocumentMoniker": "E:\\QRCodeGenerator\\ScanQR.xaml.cs",
+              "RelativeDocumentMoniker": "ScanQR.xaml.cs",
+              "ToolTip": "E:\\QRCodeGenerator\\ScanQR.xaml.cs",
+              "RelativeToolTip": "ScanQR.xaml.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAQwDoAAAABAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAICSURBVDhP3VNNaxNRFD3vzeSjk0xbp3EgaQ0JSYNRIaQEg5tgXFQQsjQb9YfoJq4Ed9267s76A0JASheFCBJxoRaCkBoJaZKBpDIZkplxfG861AbsQpceGIa5591zz333DgEc8vD1Hr0TzOeogF0pINhLPvp0I\u002B68LSeTM1yA4zgghDjepwuCx/Wcjwj0QU7JJK4GXrRPptGteOjg1qrx6sP\u002B3nGv13MPxmIxFItFPR6Pfy8UCgYLuUIEjxpvuIvlJXElpvhum5Yjb2fDxr2Nqdb59G5\u002B0u9jNpshHA4jm80eqaq6M5/PDyuVisHdEDxpZLmDytbq9eRa8KWmm6n7N5aRXxdgGT/c5E6ng2azyQtOM5nMfjqd3kmlUofMjSFid/vLs5pDr91s\u002B0VK5hFZxqbqR9jPHAavuH1PJhOejMFgIImieFeSJEvX9TYLfaMug\u002BdY0Y\u002BhYoDNNZwlOz/PKAaWAFYNiUQClNJQq9VabzQafs55AsDH9wf4\u002BrkF0zhdSGZ9gvWNUqkE1jfy\u002BTxYdQyHQ5c/F\u002BC3rWkaTNP0Ir8RCAQQiUQQjUahKAp34TEXBDh4v3\u002BLBYF/wf8mwCfQZ6vb7XYvfUaj0cJli96bj0ZnZKter2t89pfBtm1YlnUUCoXcH\u002Br8ZK1WE9mqyuPxWPBCf4TMVl0QBLtcLp9Wq1X7F/CLzyTfdu4LAAAAAElFTkSuQmCC",
+              "WhenOpened": "2024-11-30T09:28:34.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GenerationHistory.xaml.cs",
+              "DocumentMoniker": "E:\\QRCodeGenerator\\GenerationHistory.xaml.cs",
+              "RelativeDocumentMoniker": "GenerationHistory.xaml.cs",
+              "ToolTip": "E:\\QRCodeGenerator\\GenerationHistory.xaml.cs",
+              "RelativeToolTip": "GenerationHistory.xaml.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAkwHYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T09:28:34.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateQR.xaml.cs",
+              "DocumentMoniker": "E:\\QRCodeGenerator\\CreateQR.xaml.cs",
+              "RelativeDocumentMoniker": "CreateQR.xaml.cs",
+              "ToolTip": "E:\\QRCodeGenerator\\CreateQR.xaml.cs",
+              "RelativeToolTip": "CreateQR.xaml.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAYwE4AAAABAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAICSURBVDhP3VNNaxNRFD3vzeSjk0xbp3EgaQ0JSYNRIaQEg5tgXFQQsjQb9YfoJq4Ed9267s76A0JASheFCBJxoRaCkBoJaZKBpDIZkplxfG861AbsQpceGIa5591zz333DgEc8vD1Hr0TzOeogF0pINhLPvp0I\u002B68LSeTM1yA4zgghDjepwuCx/Wcjwj0QU7JJK4GXrRPptGteOjg1qrx6sP\u002B3nGv13MPxmIxFItFPR6Pfy8UCgYLuUIEjxpvuIvlJXElpvhum5Yjb2fDxr2Nqdb59G5\u002B0u9jNpshHA4jm80eqaq6M5/PDyuVisHdEDxpZLmDytbq9eRa8KWmm6n7N5aRXxdgGT/c5E6ng2azyQtOM5nMfjqd3kmlUofMjSFid/vLs5pDr91s\u002B0VK5hFZxqbqR9jPHAavuH1PJhOejMFgIImieFeSJEvX9TYLfaMug\u002BdY0Y\u002BhYoDNNZwlOz/PKAaWAFYNiUQClNJQq9VabzQafs55AsDH9wf4\u002BrkF0zhdSGZ9gvWNUqkE1jfy\u002BTxYdQyHQ5c/F\u002BC3rWkaTNP0Ir8RCAQQiUQQjUahKAp34TEXBDh4v3\u002BLBYF/wf8mwCfQZ6vb7XYvfUaj0cJli96bj0ZnZKter2t89pfBtm1YlnUUCoXcH\u002Br8ZK1WE9mqyuPxWPBCf4TMVl0QBLtcLp9Wq1X7F/CLzyTfdu4LAAAAAElFTkSuQmCC",
+              "WhenOpened": "2024-11-30T09:28:34.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\QRCodeGenerator\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "E:\\QRCodeGenerator\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAgwFwAAAABAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAICSURBVDhP3VNNaxNRFD3vzeSjk0xbp3EgaQ0JSYNRIaQEg5tgXFQQsjQb9YfoJq4Ed9267s76A0JASheFCBJxoRaCkBoJaZKBpDIZkplxfG861AbsQpceGIa5591zz333DgEc8vD1Hr0TzOeogF0pINhLPvp0I\u002B68LSeTM1yA4zgghDjepwuCx/Wcjwj0QU7JJK4GXrRPptGteOjg1qrx6sP\u002B3nGv13MPxmIxFItFPR6Pfy8UCgYLuUIEjxpvuIvlJXElpvhum5Yjb2fDxr2Nqdb59G5\u002B0u9jNpshHA4jm80eqaq6M5/PDyuVisHdEDxpZLmDytbq9eRa8KWmm6n7N5aRXxdgGT/c5E6ng2azyQtOM5nMfjqd3kmlUofMjSFid/vLs5pDr91s\u002B0VK5hFZxqbqR9jPHAavuH1PJhOejMFgIImieFeSJEvX9TYLfaMug\u002BdY0Y\u002BhYoDNNZwlOz/PKAaWAFYNiUQClNJQq9VabzQafs55AsDH9wf4\u002BrkF0zhdSGZ9gvWNUqkE1jfy\u002BTxYdQyHQ5c/F\u002BC3rWkaTNP0Ir8RCAQQiUQQjUahKAp34TEXBDh4v3\u002BLBYF/wf8mwCfQZ6vb7XYvfUaj0cJli96bj0ZnZKter2t89pfBtm1YlnUUCoXcH\u002Br8ZK1WE9mqyuPxWPBCf4TMVl0QBLtcLp9Wq1X7F/CLzyTfdu4LAAAAAElFTkSuQmCC",
+              "WhenOpened": "2024-11-30T09:28:34.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthorizationWindow.xaml",
+              "DocumentMoniker": "E:\\QRCodeGenerator\\AuthorizationWindow.xaml",
+              "RelativeDocumentMoniker": "AuthorizationWindow.xaml",
+              "ToolTip": "E:\\QRCodeGenerator\\AuthorizationWindow.xaml",
+              "RelativeToolTip": "AuthorizationWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-30T09:28:34.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GenerationHistory.xaml",
+              "DocumentMoniker": "E:\\QRCodeGenerator\\GenerationHistory.xaml",
+              "RelativeDocumentMoniker": "GenerationHistory.xaml",
+              "ToolTip": "E:\\QRCodeGenerator\\GenerationHistory.xaml",
+              "RelativeToolTip": "GenerationHistory.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-30T09:28:34.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RefreshRoleWindow.xaml.cs",
+              "DocumentMoniker": "E:\\QRCodeGenerator\\RefreshRoleWindow.xaml.cs",
+              "RelativeDocumentMoniker": "RefreshRoleWindow.xaml.cs",
+              "ToolTip": "E:\\QRCodeGenerator\\RefreshRoleWindow.xaml.cs",
+              "RelativeToolTip": "RefreshRoleWindow.xaml.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAQwCcAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAICSURBVDhP3VNNaxNRFD3vzeSjk0xbp3EgaQ0JSYNRIaQEg5tgXFQQsjQb9YfoJq4Ed9267s76A0JASheFCBJxoRaCkBoJaZKBpDIZkplxfG861AbsQpceGIa5591zz333DgEc8vD1Hr0TzOeogF0pINhLPvp0I\u002B68LSeTM1yA4zgghDjepwuCx/Wcjwj0QU7JJK4GXrRPptGteOjg1qrx6sP\u002B3nGv13MPxmIxFItFPR6Pfy8UCgYLuUIEjxpvuIvlJXElpvhum5Yjb2fDxr2Nqdb59G5\u002B0u9jNpshHA4jm80eqaq6M5/PDyuVisHdEDxpZLmDytbq9eRa8KWmm6n7N5aRXxdgGT/c5E6ng2azyQtOM5nMfjqd3kmlUofMjSFid/vLs5pDr91s\u002B0VK5hFZxqbqR9jPHAavuH1PJhOejMFgIImieFeSJEvX9TYLfaMug\u002BdY0Y\u002BhYoDNNZwlOz/PKAaWAFYNiUQClNJQq9VabzQafs55AsDH9wf4\u002BrkF0zhdSGZ9gvWNUqkE1jfy\u002BTxYdQyHQ5c/F\u002BC3rWkaTNP0Ir8RCAQQiUQQjUahKAp34TEXBDh4v3\u002BLBYF/wf8mwCfQZ6vb7XYvfUaj0cJli96bj0ZnZKter2t89pfBtm1YlnUUCoXcH\u002Br8ZK1WE9mqyuPxWPBCf4TMVl0QBLtcLp9Wq1X7F/CLzyTfdu4LAAAAAElFTkSuQmCC",
+              "WhenOpened": "2024-11-30T09:28:34.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RefreshWindow.xaml.cs",
+              "DocumentMoniker": "E:\\QRCodeGenerator\\RefreshWindow.xaml.cs",
+              "RelativeDocumentMoniker": "RefreshWindow.xaml.cs",
+              "ToolTip": "E:\\QRCodeGenerator\\RefreshWindow.xaml.cs",
+              "RelativeToolTip": "RefreshWindow.xaml.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAQwC4AAABFAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAICSURBVDhP3VNNaxNRFD3vzeSjk0xbp3EgaQ0JSYNRIaQEg5tgXFQQsjQb9YfoJq4Ed9267s76A0JASheFCBJxoRaCkBoJaZKBpDIZkplxfG861AbsQpceGIa5591zz333DgEc8vD1Hr0TzOeogF0pINhLPvp0I\u002B68LSeTM1yA4zgghDjepwuCx/Wcjwj0QU7JJK4GXrRPptGteOjg1qrx6sP\u002B3nGv13MPxmIxFItFPR6Pfy8UCgYLuUIEjxpvuIvlJXElpvhum5Yjb2fDxr2Nqdb59G5\u002B0u9jNpshHA4jm80eqaq6M5/PDyuVisHdEDxpZLmDytbq9eRa8KWmm6n7N5aRXxdgGT/c5E6ng2azyQtOM5nMfjqd3kmlUofMjSFid/vLs5pDr91s\u002B0VK5hFZxqbqR9jPHAavuH1PJhOejMFgIImieFeSJEvX9TYLfaMug\u002BdY0Y\u002BhYoDNNZwlOz/PKAaWAFYNiUQClNJQq9VabzQafs55AsDH9wf4\u002BrkF0zhdSGZ9gvWNUqkE1jfy\u002BTxYdQyHQ5c/F\u002BC3rWkaTNP0Ir8RCAQQiUQQjUahKAp34TEXBDh4v3\u002BLBYF/wf8mwCfQZ6vb7XYvfUaj0cJli96bj0ZnZKter2t89pfBtm1YlnUUCoXcH\u002Br8ZK1WE9mqyuPxWPBCf4TMVl0QBLtcLp9Wq1X7F/CLzyTfdu4LAAAAAElFTkSuQmCC",
+              "WhenOpened": "2024-11-30T09:28:34.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RefreshRoleWindow.xaml",
+              "DocumentMoniker": "E:\\QRCodeGenerator\\RefreshRoleWindow.xaml",
+              "RelativeDocumentMoniker": "RefreshRoleWindow.xaml",
+              "ToolTip": "E:\\QRCodeGenerator\\RefreshRoleWindow.xaml",
+              "RelativeToolTip": "RefreshRoleWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-30T09:28:34.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RefreshWindow.xaml",
+              "DocumentMoniker": "E:\\QRCodeGenerator\\RefreshWindow.xaml",
+              "RelativeDocumentMoniker": "RefreshWindow.xaml",
+              "ToolTip": "E:\\QRCodeGenerator\\RefreshWindow.xaml",
+              "RelativeToolTip": "RefreshWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-30T09:28:34.926Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище QRCodeGeneratorDBModelContainer" CdmEntityContainer="QRCodeGeneratorDBEntities">
+    <EntitySetMapping Name="Account">
+      <EntityTypeMapping TypeName="QRCodeGeneratorDBModel.Account">
+        <MappingFragment StoreEntitySet="Account">
+          <ScalarProperty Name="id_account" ColumnName="id_account" />
+          <ScalarProperty Name="login_" ColumnName="login_" />
+          <ScalarProperty Name="password_" ColumnName="password_" />
+          <ScalarProperty Name="id_role" ColumnName="id_role" />
+          <ScalarProperty Name="is_banned" ColumnName="is_banned" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GenerationsHistory">
+      <EntityTypeMapping TypeName="QRCodeGeneratorDBModel.GenerationsHistory">
+        <MappingFragment StoreEntitySet="GenerationsHistory">
+          <ScalarProperty Name="id_generation" ColumnName="id_generation" />
+          <ScalarProperty Name="id_account" ColumnName="id_account" />
+          <ScalarProperty Name="generationTime" ColumnName="generationTime" />
+          <ScalarProperty Name="generationText" ColumnName="generationText" />
+          <ScalarProperty Name="image_path" ColumnName="image_path" />
+          <ScalarProperty Name="susoiciouslvl" ColumnName="susoiciouslvl" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Roles">
+      <EntityTypeMapping TypeName="QRCodeGeneratorDBModel.Roles">
+        <MappingFragment StoreEntitySet="Roles">
+          <ScalarProperty Name="id_role" ColumnName="id_role" />
+          <ScalarProperty Name="name_role" ColumnName="name_role" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

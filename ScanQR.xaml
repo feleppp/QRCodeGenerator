@@ -1,0 +1,28 @@
+﻿<UserControl x:Class="QRCodeGenerator.ScanQR"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:QRCodeGenerator"
+                          xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" 
+             d:DesignHeight="390" d:DesignWidth="390">
+    <Grid>
+        <StackPanel>
+            <Image Margin="15" Width="200" Height="200" x:Name="imgQR"></Image>
+            <TextBlock x:Name="txtQR" Margin="20, 0" FontSize="16"></TextBlock>
+            <Button x:Name="BtnScan" Click="BtnScan_Click" Margin="0, 15, 0, 0" Height="40" Width="200" Background="#161254" BorderBrush="#161254">
+                <StackPanel Orientation="Horizontal">
+                    <materialDesign:PackIcon Kind="QrcodeScan" Margin="0, 0, 10, 0" Width="25" Height="25"></materialDesign:PackIcon>
+                    <TextBlock Text="Сканировать код" VerticalAlignment="Center"></TextBlock>
+                </StackPanel >
+            </Button>
+            <Button x:Name="BtnCopy" Click="BtnCopy_Click" Margin="0, 15, 0, 0" Height="40" Width="215" Background="#161254" BorderBrush="#161254">
+                <StackPanel Orientation="Horizontal">
+                    <materialDesign:PackIcon Kind="ContentCopy" Margin="0, 0, 10, 0" Width="25" Height="25"></materialDesign:PackIcon>
+                    <TextBlock Text="Скопировать в буфер" VerticalAlignment="Center"></TextBlock>
+                </StackPanel >
+            </Button>
+        </StackPanel>
+    </Grid>
+</UserControl>

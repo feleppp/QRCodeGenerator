@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QRCodeGeneratorDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Account">
+    <Key>
+      <PropertyRef Name="id_account" />
+    </Key>
+    <Property Name="id_account" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="login_" Type="String" MaxLength="45" FixedLength="false" Unicode="true" />
+    <Property Name="password_" Type="String" MaxLength="45" FixedLength="false" Unicode="true" />
+    <Property Name="id_role" Type="Int32" />
+    <Property Name="is_banned" Type="Boolean" />
+    <NavigationProperty Name="Roles" Relationship="Self.FK__Account__id_role__267ABA7A" FromRole="Account" ToRole="Roles" />
+    <NavigationProperty Name="GenerationsHistory" Relationship="Self.FK__Generatio__id_ac__29572725" FromRole="Account" ToRole="GenerationsHistory" />
+  </EntityType>
+  <EntityType Name="GenerationsHistory">
+    <Key>
+      <PropertyRef Name="id_generation" />
+    </Key>
+    <Property Name="id_generation" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_account" Type="Int32" />
+    <Property Name="generationTime" Type="DateTime" Precision="3" />
+    <Property Name="generationText" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="image_path" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="susoiciouslvl" Type="Int32" />
+    <NavigationProperty Name="Account" Relationship="Self.FK__Generatio__id_ac__29572725" FromRole="GenerationsHistory" ToRole="Account" />
+  </EntityType>
+  <EntityType Name="Roles">
+    <Key>
+      <PropertyRef Name="id_role" />
+    </Key>
+    <Property Name="id_role" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name_role" Type="String" MaxLength="45" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Account" Relationship="Self.FK__Account__id_role__267ABA7A" FromRole="Roles" ToRole="Account" />
+  </EntityType>
+  <Association Name="FK__Account__id_role__267ABA7A">
+    <End Role="Roles" Type="Self.Roles" Multiplicity="0..1" />
+    <End Role="Account" Type="Self.Account" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Roles">
+        <PropertyRef Name="id_role" />
+      </Principal>
+      <Dependent Role="Account">
+        <PropertyRef Name="id_role" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Generatio__id_ac__29572725">
+    <End Role="Account" Type="Self.Account" Multiplicity="0..1" />
+    <End Role="GenerationsHistory" Type="Self.GenerationsHistory" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Account">
+        <PropertyRef Name="id_account" />
+      </Principal>
+      <Dependent Role="GenerationsHistory">
+        <PropertyRef Name="id_account" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="QRCodeGeneratorDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Account" EntityType="Self.Account" />
+    <EntitySet Name="GenerationsHistory" EntityType="Self.GenerationsHistory" />
+    <EntitySet Name="Roles" EntityType="Self.Roles" />
+    <AssociationSet Name="FK__Account__id_role__267ABA7A" Association="Self.FK__Account__id_role__267ABA7A">
+      <End Role="Roles" EntitySet="Roles" />
+      <End Role="Account" EntitySet="Account" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Generatio__id_ac__29572725" Association="Self.FK__Generatio__id_ac__29572725">
+      <End Role="Account" EntitySet="Account" />
+      <End Role="GenerationsHistory" EntitySet="GenerationsHistory" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

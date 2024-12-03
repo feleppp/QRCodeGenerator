@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище QRCodeGeneratorDBModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Account">
+    <Key>
+      <PropertyRef Name="id_account" />
+    </Key>
+    <Property Name="id_account" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="login_" Type="nvarchar" MaxLength="45" />
+    <Property Name="password_" Type="nvarchar" MaxLength="45" />
+    <Property Name="id_role" Type="int" />
+    <Property Name="is_banned" Type="bit" />
+  </EntityType>
+  <EntityType Name="GenerationsHistory">
+    <Key>
+      <PropertyRef Name="id_generation" />
+    </Key>
+    <Property Name="id_generation" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_account" Type="int" />
+    <Property Name="generationTime" Type="datetime" />
+    <Property Name="generationText" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="image_path" Type="nvarchar" MaxLength="150" />
+    <Property Name="susoiciouslvl" Type="int" />
+  </EntityType>
+  <EntityType Name="Roles">
+    <Key>
+      <PropertyRef Name="id_role" />
+    </Key>
+    <Property Name="id_role" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name_role" Type="nvarchar" MaxLength="45" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__Account__id_role__267ABA7A">
+    <End Role="Roles" Type="Self.Roles" Multiplicity="0..1" />
+    <End Role="Account" Type="Self.Account" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Roles">
+        <PropertyRef Name="id_role" />
+      </Principal>
+      <Dependent Role="Account">
+        <PropertyRef Name="id_role" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Generatio__id_ac__29572725">
+    <End Role="Account" Type="Self.Account" Multiplicity="0..1" />
+    <End Role="GenerationsHistory" Type="Self.GenerationsHistory" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Account">
+        <PropertyRef Name="id_account" />
+      </Principal>
+      <Dependent Role="GenerationsHistory">
+        <PropertyRef Name="id_account" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище QRCodeGeneratorDBModelContainer">
+    <EntitySet Name="Account" EntityType="Self.Account" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="GenerationsHistory" EntityType="Self.GenerationsHistory" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Roles" EntityType="Self.Roles" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Account__id_role__267ABA7A" Association="Self.FK__Account__id_role__267ABA7A">
+      <End Role="Roles" EntitySet="Roles" />
+      <End Role="Account" EntitySet="Account" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Generatio__id_ac__29572725" Association="Self.FK__Generatio__id_ac__29572725">
+      <End Role="Account" EntitySet="Account" />
+      <End Role="GenerationsHistory" EntitySet="GenerationsHistory" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
